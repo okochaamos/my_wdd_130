@@ -1,0 +1,39 @@
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+div {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #0077B6; 
+}
+header {
+    background-color: #03045E;
+}
+nav a:hover {
+    background-color: #03045E;
+}
