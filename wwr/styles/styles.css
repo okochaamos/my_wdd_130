@@ -10,7 +10,10 @@
     width : 80px;
 
 }
-
+a {
+    text-decoration: none;
+  }
+  
 nav a{  
     margin : 0 auto;
     text-align: center;
