@@ -1,7 +1,9 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Skranji&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Ubuntu:wght@300&display=swap');
+
 
 :root {
   /* change the values below to your colors from your palette */
@@ -17,7 +19,7 @@ Fonts are separated by a | */
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #118AB2;  /* headlines on a white background */ 
   --headline-color-on-color: #EF476F; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #06D6A0; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #EF476F; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #06D6A0  ;
   --nav-link-color: #EF476F;
@@ -35,14 +37,15 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  
 }
 img {
   display: block;
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  font-family: Ubuntu;
+  color: #118AB2;
 }
 h2 {
   text-align: center;
@@ -50,21 +53,21 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(--accent1-color);
+  background: #06D6A0;
 }
 header {
   padding: 1em;
   text-align: center;
-  color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  color: #EF476F;
+  background-color: #06D6A0 ;
 }
 header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+  color: #EF476F;
 }
 
 p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
+  font-family: Joti One;
+  color: #06D6A0 ;
   padding: 1em;
 }
 .colors {
@@ -81,26 +84,27 @@ p {
   height: 3em;
 }
 
+
 .primary {
-  background-color: var(--primary-color);
+  background-color: #EF476F;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #FFD166;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #06D6A0;
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color: #118AB2;
 }
 
 p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
+  background-color: #06D6A0;;
+  color: #FFD166;
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color:  #118AB2;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -118,11 +122,11 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: #EF476F;
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: #EF476F;
+  background-color: #06D6A0;
 }
 
 .sitemap {
