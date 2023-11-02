@@ -44,7 +44,7 @@ img {
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: Ubuntu;
+  font-family: Joti One;
   color: #118AB2;
 }
 h2 {
@@ -66,7 +66,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: Joti One;
+  font-family: Ubuntu;
   color: #06D6A0 ;
   padding: 1em;
 }
