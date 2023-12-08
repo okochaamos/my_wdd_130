@@ -166,7 +166,7 @@ footer h4{
     text-align: center;
     font-family: Ubuntu;
     font-size: 1.2em;
-    background-color:wheat;
+    background-color:#4361ee;
 }
 
 #stuffs img{
@@ -312,11 +312,11 @@ styles {
 
   
   body {
-    background-color: wheat;
+    background-color: 4CC9F0;
   }
   
   #regForm {
-    background-color: wheat;
+    background-color: 4CC9F0;
     margin: 100px auto;
     font-family: Raleway;
     padding: 40px;
@@ -324,8 +324,10 @@ styles {
     min-width: 300px;
   }
   
-  h1 {
-    text-align: center;  
+  #regForm h1 {
+    text-align: center;
+    background-color: 4CC9F0;
+
   }
   
   input {
