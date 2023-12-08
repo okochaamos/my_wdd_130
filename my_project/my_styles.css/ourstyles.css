@@ -166,14 +166,15 @@ footer h4{
     text-align: center;
     font-family: Ubuntu;
     font-size: 1.2em;
-    background-color:#4361ee;
+    background-color:#4cc9f0;
 }
 
 #stuffs img{
     width: 600px;
     height: 500px;
     border-radius: 50px;
-    
+    margin-right: 50px;
+        
 }
 
 #vaults{
