@@ -168,7 +168,7 @@ footer h4{
     align-items: center;
     text-align: center;
     font-family: Ubuntu;
-    font-size: 1.2em;
+    font-size: 1.1em;
     background-color:#4cc9f0;
     
 }
@@ -189,7 +189,8 @@ footer h4{
     grid-column: 2/3 ;
     grid-row: 1/2;
     text-align: center;
-    color:#7209b7
+    color:#7209b7;
+    font-size: 1.3em;
 
 
 }
