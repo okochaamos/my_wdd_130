@@ -205,7 +205,8 @@ footer h4{
     grid-column: 2/3;
     grid-row: 4/6;
     text-align: center;
-    color :#7209b7
+    color :#7209b7;
+    margin-left: 10px;
 
 }
 
@@ -213,7 +214,8 @@ footer h4{
     grid-column: 3/4;
     grid-row: 4/6;
     text-align: center;
-    color :#7209b7
+    color :#7209b7;
+    margin-left: 10px;
 }
 
 #vaults{
