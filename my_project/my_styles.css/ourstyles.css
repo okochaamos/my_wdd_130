@@ -194,14 +194,14 @@ footer h4{
 
 
 }
-#stuffs p1 {
-    grid-column:1/2 ;
+#stuffs p {
+    grid-column:1/2 2/3 3/4 ;
     grid-row: 4/6;
     text-align: center;
     color :#7209b7;
     margin-top: 40px;
 }      
-
+/*
 #stuffs p2 {
     grid-column: 2/3;
     grid-row: 4/6;
@@ -218,7 +218,7 @@ footer h4{
     color :#7209b7;
     margin-left: 10px;
 }
-
+*/
 #vaults{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
