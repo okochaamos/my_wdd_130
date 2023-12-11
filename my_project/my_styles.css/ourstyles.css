@@ -177,9 +177,7 @@ footer h4{
     grid-column: 1/4;
     grid-row: 2/4;
     width: 90%;
-    
     border-radius: 50px;
-    align-items: 0 auto;
     margin-top: 315px;
     margin-bottom: 100px;
     margin-left: 80px;
@@ -195,7 +193,7 @@ footer h4{
 
 }
 #stuffs p {
-    grid-column:1/2 2/3 3/4 ;
+    grid-column:1/2, 2/3, 3/4 ;
     grid-row: 4/6;
     text-align: center;
     color :#7209b7;
