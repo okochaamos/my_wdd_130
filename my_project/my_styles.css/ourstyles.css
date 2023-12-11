@@ -176,13 +176,13 @@ footer h4{
 #stuffs img{
     grid-column: 1/4;
     grid-row: 2/4;
-    width: 98%;
-    height: 700px;
+    width: 90%;
+    
     border-radius: 50px;
-    margin-right: 50px;
-    margin-bottom: 15px;
-    margin-top: 90px;
-    margin-left: 15px;
+    align-items: 0 auto;
+    margin-top: 330px;
+    margin-bottom: 100px;
+    margin-left: 90px;
 }
 
 #stuffs  h1 {
@@ -227,12 +227,13 @@ footer h4{
     text-align: center;
     font-family: Ubuntu;
     font-size: 1.2em;
-    background-color:#4361ee;
+    background-color:#4cc9f0;
 }
 
 #vaults h3{
     grid-column: 2/3;
     grid-row: 1/2;
+    color :#7209b7;
     
 }
 
@@ -283,29 +284,34 @@ footer h4{
 #vaults p1{
   grid-column: 1/2;
   grid-row: 4/6 ;
+  color :#7209b7;
 }
 
 #vaults p2{
   grid-column:2/3 ;
   grid-row: 4/6;
+  color :#7209b7;
 }
 
 #vaults p3{
   grid-column: 3/4;
   grid-row: 4/6;
+  color :#7209b7;
 }
 
 form {
     /* Center the form on the page */
     margin: 0 auto;
-    width: 400px;
+    width: 800px;
     /* Form outline */
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
     font-family: Ubuntu;
     font-size: 1.2em;
-    background-color:wheat;
+    color :#7209b7;
+    
+    background-color:#4cc9f0;
     margin-top: 10px;
   }
   
@@ -398,9 +404,11 @@ body {
   textarea {
     /* Align multiline text fields with their labels */
     vertical-align: top;
+    width: 100%;
+    height: 400px;
   
     /* Provide space to type some text */
-    height: 5em;
+    
   }
   
   .button {
