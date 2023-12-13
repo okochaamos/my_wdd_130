@@ -57,7 +57,7 @@ nav a:hover {
 
 .container {
     display: grid;
-    grid-template-columns: 20% 10% 20% 20% 10% 20%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
     grid-template-rows: 10% 20% 20% 20% 20% 10% ;
     height: auto;
     background-color:#4cc9f0;
@@ -70,7 +70,7 @@ nav a:hover {
 
 
 .container h1{
-    grid-column: 3/5;
+    grid-column: 2/3;
     grid-row: 1/2;
     text-align: center;
     font-family: Ubuntu;
@@ -80,7 +80,7 @@ nav a:hover {
 }
 
 .my_theme {
-    grid-column: 3/5;
+    grid-column: 2/3;
     grid-row: 2/5;
     padding: 20px;
     align-items: center;
@@ -93,7 +93,7 @@ nav a:hover {
 }
 
 .homepage1{
-    grid-column: 5/7;
+    grid-column: 3/4;
     grid-row: 2/5;
     text-align: left;
     font-family: Ubuntu;
@@ -172,7 +172,7 @@ footer h4{
     align-items: center;
     text-align: center;
     font-family: Ubuntu;
-    font-size: 1.1em;
+    font-size: 1.3em;
     background-color:#4cc9f0;
     
 }
@@ -230,7 +230,7 @@ footer h4{
     align-items: center;
     text-align: center;
     font-family: Ubuntu;
-    font-size: 1.2em;
+    font-size: 1.3em;
     background-color:#4cc9f0;
 }
 
@@ -289,18 +289,24 @@ footer h4{
   grid-column: 1/2;
   grid-row: 4/6 ;
   color :#7209b7;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #vaults p2{
   grid-column:2/3 ;
   grid-row: 4/6;
   color :#7209b7;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #vaults p3{
   grid-column: 3/4;
   grid-row: 4/6;
   color :#7209b7;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 form {
@@ -432,7 +438,7 @@ body {
   }
   
   #regForm {
-    grid-column: 3/5;
+    grid-column: 2/3;
     grid-row: 5/7;
     background-color:#4361ee;
     margin: 0 auto;
