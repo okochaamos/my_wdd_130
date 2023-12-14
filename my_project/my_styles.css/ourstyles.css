@@ -204,6 +204,8 @@ footer h4{
     margin-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: left;
+
 }      
 /*
 #stuffs p2 {
@@ -291,6 +293,7 @@ footer h4{
   color :#7209b7;
   padding-left: 10px;
   padding-right: 10px;
+  text-align: left;
 }
 
 #vaults p2{
@@ -299,6 +302,7 @@ footer h4{
   color :#7209b7;
   padding-left: 10px;
   padding-right: 10px;
+  text-align: left;
 }
 
 #vaults p3{
@@ -307,6 +311,8 @@ footer h4{
   color :#7209b7;
   padding-left: 10px;
   padding-right: 10px;
+  text-align: left;
+
 }
 
 form {
